@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <center>
 <title>Bypassed Games</title>
 <head>
@@ -49,11 +50,12 @@ body {margin:0;}
   <a href="home.html">Home</a>
   <a href="games.html">Games</a>
   <a href="blog.html">Blog</a>
-  </div>
-<div id="playgame">
-<embed src="basketballlegends.swf" id="currentEmbedGame" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" wmode="direct" width="800" height="480" menu="0">
 </div>
-<br></br>
+<div class="game-swf-center" style="width:800px;height:480px">
+<object type="application/x-shockwave-flash" data="basketballlegends.swf" width="800" height="480" id="game-swf" style="visibility: visible;"><param name="wmode" value="direct"><param name="allowScriptAccess" value="always"></object>
+</div>
+<script>swfobject.embedSWF("basketballlegends.swf","game-swf","800","480","11.0.0","/expressInstall.swf",{},{wmode:"direct",allowScriptAccess:"always"},{})</script>
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Home Bypassed -->
 <ins class="adsbygoogle"
